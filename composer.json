@@ -1,0 +1,20 @@
+{
+    "name": "jay/jwp-latest-posts",
+    "description": "A plugin that adds a widget to show latest posts in the dashboard area and an authorized user can configure the widget to customize the output.",
+    "type": "wordpress-plugin",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "Tanmay Kirtania",
+            "email": "jktanmay@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JWP\\JLP\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
